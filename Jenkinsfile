@@ -1,0 +1,10 @@
+pipeline {
+   agent any
+   stages {
+      stage('scm') {
+         steps {
+       git 'https://github.com/bbachi/python-flask-restapi.git'
+         }
+      }
+   }
+}
