@@ -3,7 +3,7 @@ pipeline {
    stages {
       stage('scm') {
          steps {
-       git 'https://github.com/bbachi/python-flask-restapi.git'
+       git 'https://github.com/issaquemd91/devops-.git'
          }
       }
    }
